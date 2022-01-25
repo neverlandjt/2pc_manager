@@ -1,0 +1,7 @@
+CREATE TABLE hotel  (
+    booking_id            varchar(80),
+    client_name           varchar(80),        
+    hotel_name           varchar(80),        
+    arrival_date            date,      
+    departure_date            date
+);

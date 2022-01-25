@@ -1,0 +1,5 @@
+CREATE TABLE account  (
+    account_id            varchar(80),
+    client_name           varchar(80),        
+    amount           numeric  NOT NULL CONSTRAINT positive_amount CHECK (amount > 0)      
+);

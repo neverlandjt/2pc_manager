@@ -1,0 +1,8 @@
+CREATE TABLE fly (
+    booking_id            varchar(80),
+    client_name         varchar(80),        
+    fly_number         varchar(80),           
+    from_loc            varchar(80),       
+	to_loc          varchar(80),
+    date            date
+);
